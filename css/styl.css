@@ -1,0 +1,101 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #404040; }
+
+.data_txt {
+  cursor: pointer;
+  border: 1px solid #FFF;
+  margin-top: 4px;
+  padding: 1px 5px 0px 5px; }
+
+#api_block {
+  position: relative;
+  width: 400px;
+  left: 50%;
+  margin-left: -210px;
+  background: #d8ffce;
+  padding: 10px;
+  color: white; }
+
+#top_part_api {
+  position: relative;
+  min-height: 100px;
+  display: block;
+  background: #99d8a3;
+  border-radius: 20px 0px 0px; }
+
+#img_api {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: url("../img/avatar.gif");
+  background-size: 100%;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 20px 0px;
+  border: 5px solid #99d8a3; }
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #FFF;
+  text-align: center; }
+
+#float_content {
+  position: relative;
+  display: inline-block;
+  padding: 10px; }
+  #float_content ::-webkit-input-placeholder {
+    color: #FFF;
+    text-align: left; }
+  #float_content .data_txt {
+    width: 75px; }
+  #float_content input {
+    display: block;
+    background: #99d8a3;
+    border: 1px solid white;
+    width: 75px;
+    color: #5e815c;
+    margin-top: 4px;
+    padding: 2px 5px 2px 5px; }
+
+#both_part_api {
+  position: relative;
+  margin-top: 10px;
+  widht: 100%; }
+
+.content_both_module {
+  margin-top: 1px;
+  background: #5e815c;
+  padding: 10px; }
+  .content_both_module .module_navi input {
+    background: #99d8a3;
+    border: 1px solid white;
+    width: 120px;
+    color: #5e815c; }
+  .content_both_module .module_navi * {
+    display: inline-block; }
+  .content_both_module .module_navi .module_separator {
+    margin: 0px 3px; }
+  .content_both_module button {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    background: #99d8a3;
+    cursor: pointer;
+    border: 1px solid #fff;
+    color: #5e815c;
+    font-weight: 100;
+    border-radius: 15px 0px; }
+  .content_both_module .module_content {
+    margin-top: 10px; }
+    .content_both_module .module_content .element_module * {
+      border-radius: 0px;
+      display: inline-block; }
+
+/*# sourceMappingURL=styl.css.map */
